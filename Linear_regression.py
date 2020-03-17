@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataset = pd.read_csv('C:/Users/kain_/Downloads/Course Files/005 - Regression/01Students.csv')
+dataset = pd.read_csv('01Students.csv')
 df = dataset.copy()
 
 X = df.iloc[:, :-1]
