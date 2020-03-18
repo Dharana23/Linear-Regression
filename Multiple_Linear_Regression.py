@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import math
 
-dataset = pd.read_csv('C:/Users/kain_/Downloads/Course Files/005 - Regression/02Students.csv')
+dataset = pd.read_csv('02Students.csv')
 df = dataset.copy()
 
 X = df.iloc[:, :-1]
